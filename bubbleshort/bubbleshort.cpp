@@ -4,10 +4,6 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
-
-}
 
 
 int a[20];				// Deklarasi array a dengan ukuran 20
@@ -57,6 +53,13 @@ void bubblesortArray() {					// Prosedur untuk mengurutkan array dengan metode b
 			}
 		}
 	}
+}
+
+int main() {
+	input();			// Memanggil read()
+	bubblesortArray();	// Memanggil bubblesortarray()
+	display();			// Memanggil display()
+	return 0;
 }
 
 
